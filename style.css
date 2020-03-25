@@ -1,0 +1,108 @@
+body {
+overflow-x: hidden;
+}
+
+nav {
+    z-index: 10;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 85%;
+}
+
+ul li {
+    margin: 1em;
+    text-decoration: none;
+    
+}
+
+a {
+    color: white;
+}
+
+.btn-green {
+    background-color: #2EC39E;
+    border-radius: 100px;
+    font-size: 85%;
+    color: white;
+}
+
+p {
+    font-size: 85%; 
+    color: #D2D3D7;
+}
+
+.p2  {
+    font-size: 70%; 
+    color: #D2D3D7;
+}
+
+.img1 {
+    transform: translateY(-7rem);
+    float:left;
+    padding-left:21rem;
+}
+
+.section1 {
+    height: 75vh;
+
+
+    background-image: url(img/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 200%;
+    /* background-size: contain; */
+}
+
+.section2 {
+    background-color: #F5F6F8;
+    height: 75vh;
+}
+
+.section2container {
+    display: flex;
+}
+
+.section2-item {
+height: 31vh;
+width: 15vw;
+margin: 1em;
+margin-left: 0%;
+}
+
+.section3 {
+    height: 75vh;
+}
+
+.section4 {
+    background-color: #2D314E;
+    color: white;
+}
+
+.nopadding {
+    padding: 0%;
+}
+
+.card {
+    margin: 1em;
+    margin-left: 0%;
+}
+
+.ulflex {
+    display: flex;
+}
+
+.logo-container img {
+    margin: 0.3em;
+}
+
+.nomarginright {
+    margin: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.buttoncopy {
+    width: 40em;
+}
